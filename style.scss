@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(212, 205, 205);
+  background-color: black;
+}
+
+.h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.container {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#jokeText {
+  font-size: 2rem;
+  color: white;
+  line-height: 3rem;
+}
+
+#chuckImg {
+  height: 150px;
+  width: 160px;
+  margin-bottom: 40px;
+}
+
+ #jokeBtn {
+     padding: 0.5rem 3rem;
+     font-size: 2rem;
+     font-weight: 600;
+     border-radius: 20px;
+     margin-top: 1rem;
+     margin-left: 10rem;
+ }
+
+ .label {
+     color: white;
+ }
+
+ .input {
+     border: white 3px solid;
+     border-radius: 15px;
+    //  padding: 0.3rem;
+    //  margin-right: 1rem;
+ }
+
+//  .form {
+//      padding: 1rem 1rem 2rem 1rem;
+//  }

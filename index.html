@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chuck Norris Jokes</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1">Chuck Norris Jokes</h1>
+      <img id="chuckImg" src="/chucknorris.jpeg.jpg" alt="Chuck Norris photo" />
+      <form class="form" id="jokeForm">
+        <label class="label" for="firstName">First Name</label>
+        <input
+          class="input"
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="Chuck"
+        />
+        <label class="label" for="lastName">Last Name</label>
+        <input class="input" type="text" id="lastName" placeholder="Norris" />
+        <br />
+        <button type="submit" id="jokeBtn">Get Joke</button>
+      </form>
+
+      <p id="jokeText"></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
